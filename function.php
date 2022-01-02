@@ -1,7 +1,7 @@
 <?php 
 
 function make_connection(){
-    $connection = mysqli_connect('localhost','root','Maxamed@@123','projectms');
+    $connection = mysqli_connect('localhost','root','','projectms');
     if(!$connection) die("Database connection failed");
 
     return $connection;
